@@ -1,6 +1,9 @@
-import React from 'react';
-import { Table } from "./table";
+import TrajectoryCalculator from "./TrajectoryCalculator.tsx"
 
-export function App(): React.ReactNode {
-  return <div><Table></Table></div>;
+export default function App() {
+  return (
+    <>
+      <TrajectoryCalculator></TrajectoryCalculator>
+    </>
+  );
 }
