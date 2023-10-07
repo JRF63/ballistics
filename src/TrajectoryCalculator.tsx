@@ -1,4 +1,4 @@
-import TrajectoryCalculatorInputs from "./TrajectoryCalculatorInputs";
+import TrajectoryCalculatorInputs from "./TrajectoryCalculatorInputs/TrajectoryCalculatorInputs";
 import TrajectoryCalculatorOutputs from "./TrajectoryCalculatorOutputs";
 
 import * as React from "react";
@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
-const drawerWidth = 240;
+const drawerWidth = 480;
 const appBarTitle = "Trajectory calculator";
 
 export default function TrajectoryCalculator() {
